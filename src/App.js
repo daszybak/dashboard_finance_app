@@ -1,5 +1,4 @@
 import {Routes, Route} from 'react-router';
-import {MainContent} from './containers';
 import {Dashboard} from './routes/index';
 
 function App() {

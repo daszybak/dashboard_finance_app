@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ThemeToggle from '../../components/ThemeToggle/ThemeToggle';
-import BurgerMenu from '../../components/BurgerMenu/BurgerMenu';
+import {BurgerMenu} from '../../components';
 
 const TopBar = ({className}) => {
   return (
