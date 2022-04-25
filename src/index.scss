@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .span-burger {
+    @apply block absolute h-[5px] w-full bg-black dark:bg-white rounded-[15px] opacity-100 left-0 rotate-0 duration-[250ms] ease-in-out;
+  }
+}
