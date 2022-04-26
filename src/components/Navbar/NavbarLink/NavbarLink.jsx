@@ -10,7 +10,9 @@ const NavbarLink = ({to, children}) => {
   return (
     <Link
       to={to}
-      className={` ${isMatch && 'bg-blue rounded text-white'}  no-underline`}
+      className={` ${
+        isMatch && 'border-2 border-blue rounded text-blue'
+      }  no-underline`}
       type="button"
     >
       <div className="flex items-center gap-2 mb-0 p-2">{children}</div>

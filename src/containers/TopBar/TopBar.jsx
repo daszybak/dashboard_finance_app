@@ -1,7 +1,6 @@
 import React from 'react';
 
-import ThemeToggle from '../../components/ThemeToggle/ThemeToggle';
-import {BurgerMenu} from '../../components';
+import {BurgerMenu, ThemeToggle, Search} from '../../components';
 
 const TopBar = ({className}) => {
   return (
@@ -12,8 +11,8 @@ const TopBar = ({className}) => {
       <div className="m-auto flex flex-col min-h-[70px] items-center xl:hidden">
         <BurgerMenu />
       </div>
-      <div>
-        <h6>Search</h6>
+      <div className="flex justify-center">
+        <Search />
       </div>
       <div className="col-start-5">
         <p>Languages</p>
